@@ -39,7 +39,7 @@ def map_to_square(source_array)
   square_array = [] 
  
  while i < source_array.length do 
-   square_array << (source_array[i]*-1)  
+   square_array << (source_array[i]**2)  
    i += 1 
  end
  square_array
