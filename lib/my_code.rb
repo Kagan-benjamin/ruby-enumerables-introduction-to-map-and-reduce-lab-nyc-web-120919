@@ -30,6 +30,7 @@ def map_to_double(source_array)
    double_array << (source_array[i]*2)  
    i += 1 
  end
+ double_array
 end
 
 
